@@ -1,0 +1,681 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body{
+    background-image: url(tecnologia-azul.jpg);
+    margin:0;
+    padding:0; 
+    border:none;
+
+}
+
+.formsgeral{
+    background-color: #FA4206;
+    width:70%;
+	padding:20px 0;
+	margin:auto;
+}
+
+.forumlario{
+    width:80%;
+    height:90vh;
+    margin-right:70px;
+    margin-left:70px;
+    margin-top:20px;
+    margin-bottom:20px;
+    display:inline-block;
+    padding-left:10px;
+    position:relative;
+    border-radius:20px 20px 20px 20px;
+}
+
+.boavinda{
+    font-family: 'Bebas Neue';
+    font-size:50px;
+    color:#fff;
+    text-align: center;
+}
+
+.subtitle{
+    font-family: 'Bebas Neue';
+    font-size:25px;
+    color:#fff;
+    text-align: center;
+    font-weight:200;
+    text-transform: uppercase;
+    margin-left:30px;
+    margin-top:0;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 70%;
+
+}
+
+.icones-redes{
+    width: 50%;
+}
+
+/* FORMULÁRIO */
+
+.form{
+    margin:20px 10px;
+}
+
+fieldset {
+    border:0;
+}
+
+.campo-nome{
+    font-family:'Bebas Neue';
+    font-size:25px;
+    width:100%;
+    margin-top:5px;
+    margin-bottom:2px;
+    margin-left:10px;
+}
+
+.campo-nome label{
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.campo-nome label:after{
+    content:"*";
+    margin-left:5px;
+    color: #031C78;
+}
+
+.campo-nome input{
+    background:none;
+    padding: 0.5em;
+    border:none;
+    border-bottom: 2px solid #fff;
+    display: block;
+    color:#fff;
+    font-family:'Bebas Neue';
+    font-size:18px;
+}
+
+.grupo-documentos{
+    display:inline-flex;
+    margin:0;
+}
+
+.campo-cpf{
+    font-family:'Bebas Neue';
+    font-size:25px;
+    width:100%;
+    margin-bottom:2px;
+    margin-left: 80px;
+}
+
+.campo-cpf label{
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.campo-cpf label:after{
+    content:"*";
+    margin-left:5px;
+    color:#031C78;
+}
+
+.campo-cpf input{
+    background:none;
+    padding: 0.56em;
+    border:none;
+    border-bottom: 2px solid #fff;
+    display: block;
+    color:#fff;
+    font-family:'Bebas Neue';
+    font-size:18px;
+}
+
+.campo-rg{
+    font-family:'Bebas Neue';
+    font-size:25px;
+    width:100%;
+    margin-bottom:2px;
+    margin-left: 180px;
+}
+
+.campo-rg label{
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.campo-rg input{
+    background:none;
+    padding: 0.56em;
+    border:none;
+    border-bottom: 2px solid #fff;
+    display: block;
+    color:#fff;
+    font-family:'Bebas Neue';
+    font-size:18px;
+}
+
+.campo-genero{
+    font-family:'Bebas Neue';
+    font-size:25px;
+    width:100%;
+    margin-right:10px;
+}
+
+.campo-genero label{
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+    background:none;
+}
+
+.campo-genero option{
+    background-color:#031C78;
+}
+
+.campo-genero select{
+    width:100%;
+}
+
+.campo-endereco{
+    font-family:'Bebas Neue';
+    font-size:25px;
+    width:100%;
+    margin-top:5px;
+    margin-bottom:2px;
+    margin-left:10px;
+}
+
+.campo-endereco label{
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.campo-endereco label:after{
+    content:"*";
+    margin-left:5px;
+    color:#031C78;
+}
+
+.campo-endereco input{
+    background:none;
+    padding: 0.5em;
+    border:none;
+    border-bottom: 2px solid #fff;
+    display: block;
+    color:#fff;
+    font-family:'Bebas Neue';
+    font-size:18px;
+}
+
+.grupo-endereco{
+    display:inline-flex;
+}
+
+.campo-numero{
+    font-family:'Bebas Neue';
+    font-size: 25px;
+    width:40%;
+    margin-bottom:2px;
+    margin-right:15px;
+}
+
+.campo-numero label{
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.campo-numero label:after{
+    content:"*";
+    margin-left:5px;
+    color:#031C78;
+}
+
+.campo-numero input{
+    background:none;
+    padding: 0.5em;
+    border:none;
+    border-bottom: 2px solid #fff;
+    display: block;
+    color:#fff;
+    font-family:'Bebas Neue';
+    font-size:18px;
+}
+
+.campo-complemento{
+    font-family:'Bebas Neue';
+    font-size:25px;
+    width:100%;
+    margin-bottom:2px;
+    margin-right:40px;
+}
+
+.campo-complemento label{
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.campo-complemento input{
+    background:none;
+    padding: 0.5em;
+    border:none;
+    border-bottom: 2px solid #fff;
+    display: block;
+    color:#fff;
+    font-family:'Bebas Neue';
+    font-size:18px;
+}
+
+.campo-bairro{
+    font-family:'Bebas Neue';
+    font-size:25px;
+    width:90%;
+    margin-bottom:2px;
+    margin-right:60px;
+}
+
+.campo-bairro label{
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.campo-bairro input{
+    background:none;
+    padding: 0.5em;
+    border:none;
+    border-bottom: 2px solid #fff;
+    display: block;
+    color:#fff;
+    font-family:'Bebas Neue';
+    font-size:18px;
+}
+
+.grupo-cidade{
+    display:inline-flex;
+    margin:0;
+}
+
+.campo-cidade{
+    font-family:'Bebas Neue';
+    font-size:25px;
+    width:90%;
+    margin-bottom:2px;
+    margin-right: 100px;
+}
+
+.campo-cidade label{
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.campo-cidade input{
+    background:none;
+    padding: 0.5em;
+    border:none;
+    border-bottom: 2px solid #fff;
+    display: block;
+    color:#fff;
+    font-family:'Bebas Neue';
+    font-size:18px;
+}
+
+.campo-estado{
+    font-family:'Bebas Neue';
+    font-size:25px;
+    width:90%;
+    margin-bottom:2px;
+    margin-right:5px;
+    margin-left:5px;
+}
+
+.campo-estado label{
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.campo-estado option{
+    background-color:#031C78;
+}
+
+.campo-estado input{
+    background:none;
+    padding: 0.5em;
+    border:none;
+    border-bottom: 2px solid #fff;
+    display: block;
+    color:#fff;
+    font-family:'Bebas Neue';
+    font-size:18px;
+}
+select{
+    background:none;
+    padding: 0.3em;
+    border:none;
+    border-bottom: 2px solid #fff;
+    display: block;
+    color:#FFF;
+}
+
+.campo-cep{
+    font-family:'Bebas Neue';
+    font-size:25px;
+    width:90%;
+    margin-bottom:2px;
+    margin-right:15px;
+}
+
+.campo-cep label{
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.campo-cep input{
+    background:none;
+    padding: 0.5em;
+    border:none;
+    border-bottom: 2px solid #fff;
+    display: block;
+    color:#fff;
+    font-family:'Bebas Neue';
+    font-size:18px;
+}
+
+.grupo-telefones{
+    display:inline-flex;
+    margin:0;
+}
+
+.campo-fixo{
+    font-family:'Bebas Neue';
+    font-size:25px;
+    width:90%;
+    margin-bottom:2px;
+    margin-right:15px;
+}
+
+.campo-fixo label{
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.campo-fixo input{
+    background:none;
+    padding: 0.5em;
+    border:none;
+    border-bottom: 2px solid #fff;
+    display: block;
+    color:#fff;
+    font-family:'Bebas Neue';
+    font-size:20px;
+}
+
+.campo-celular{
+    font-family:'Bebas Neue';
+    font-size:25px;
+    width:90%;
+    margin-bottom:5px;
+    margin-right:10px;
+}
+
+.campo-celular label{
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.campo-celular label:after{
+    content:"*";
+    margin-left:5px;
+    color:#031C78;
+}
+
+.campo-celular input{
+    background:none;
+    padding: 0.5em;
+    border:none;
+    border-bottom: 2px solid #fff;
+    display: block;
+    color:#fff;
+    font-family:'Bebas Neue';
+    font-size:18px;
+}
+label:focus{
+    outline:none;
+}
+input:focus {
+    border:none;
+    border-bottom:2px solid #fff;
+    outline:none;
+    box-shadow: 0 0 0 0;
+}
+
+.btn-submit{
+    font-family:'Bebas Neue';      
+    font-size: 30px;
+    background: #031C78;
+    border-radius: 10px;
+    border-color:#031C78;
+    margin-bottom: 1em;
+    color: #fff;
+    padding: 7px 40px;
+    margin-left: auto;
+    margin-top:60px;
+    cursor: pointer;
+    display:block;
+    margin-right:60px;
+    
+}
+    
+.btn-submit:hover {
+    background: #F79C60;
+    border-color:#F79C60;
+    font-size: 30px;
+    transition:0.2s;
+}
+
+.btn-submit a{
+    font-family: 'Bebas Neue';
+    text-decoration:none;
+    color:#fff;
+    font-weight:bold
+
+}
+
+/* PÁGINA ENVIADO */
+
+.formsgeral h2{
+    color:#031C78;
+    font-family: 'Bebas Neue';
+    font-size: 50px;
+    position:relative;
+    top:30px;
+}
+
+.btn-back{
+    background: #003499;
+    border-radius: 10px;
+    border-color:#003499;
+    padding: 5px 40px;
+    cursor: pointer;
+    position:relative;
+    top:100px;
+}
+
+.btn-back:hover {
+    background: #F79C60;
+    border-color:#F79C60;
+    font-size: 35px;
+    transition:0.2s;
+}
+
+.btn-back a{
+    font-family:'Bebas Neue';      
+    font-size: 35px;
+    color: #FFF;
+    text-decoration:none;
+}
+
+/* FIM DA PÁGINA ENVIADO */
+
+.error-validation{
+    color:#FF1A1A;
+    position:absolute;
+    top:57px;
+    font-size: .8rem;
+}
+
+.template{
+    display: none;
+}
+
+@media(max-width:858px){
+    body{
+    margin:0;
+    padding:0; 
+    width: 100vw;
+	height: 100vh;
+    font-family:'Bebas Neue';
+    border: none;
+}
+.formsgeral{
+    display:block;
+
+}
+
+.forumlario{
+    display:block;
+    width:80%;
+    height:110vh;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:0;
+    padding:10px;
+    border-radius:0 0 10px 10px;
+}
+
+
+.grupo-telefones{
+    display:block;
+    margin:0;
+}
+
+.campo-fixo{
+    font-family:'Bebas Neue';
+    font-size:20px;
+    width:100%;
+    margin-bottom:2px;
+    margin-right:10px;
+}
+
+.campo-fixo label{
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+    margin-top:10px;
+}
+
+.campo-fixo input{
+    background:none;
+    padding: 0.5em;
+    border:none;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    color:#fff;
+}
+
+.campo-celular{
+    font-family:'Bebas Neue';
+    font-size:20px;
+    width:100%;
+    margin-bottom:2px;
+    margin-right:10px;
+}
+
+.campo-celular label{
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+    margin-top:10px;
+}
+
+.campo-celular label:after{
+    content:"*";
+    margin-left:5px;
+    color:#031C78;
+
+}
+
+.campo-celular input{
+    background-color:none;
+    padding: 0.5em;
+    border:none;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    color:#fff;
+}
+
+.campo-bairro{
+    font-family:'Bebas Neue';
+    font-size:12px;
+    width:100%;
+    margin-bottom:2px;
+    margin-right:0;
+}
+
+.campo-bairro label{
+    margin-bottom: 0.2em;
+    color: #fff;
+    display: block;
+}
+
+.campo-bairro input{
+    background-color:none;
+    padding: 0.5em;
+    border:none;
+    border-bottom: 2px solid #FFF;
+    display: block;
+    color:#fff;
+}
+
+.itau{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 140px;
+}
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.social-link {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
